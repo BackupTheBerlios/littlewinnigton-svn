@@ -1,0 +1,52 @@
+_Coding_Guideline_
+
+Dieser Text hilft ein einheitliches "Codedesign" zu realisieren, hier sind einige Vorschläge
+von mir, in der ML wird dies alles zur Diskussion gestellt.
+
+Sprache:
+    Der Source (die Bennenung oder Variablen, Funktionen etc.) wird in Englisch geschrieben.
+
+Klassen:
+    Klassen werden mit einem großem "C" am Anfang gekennzeichnet. Falls die Namen der Klassen
+    mehrere Wörter enthalten sollten, wird bei allen der Anfangsbuchstaben groß geschrieben.
+    Beispiel: CMyNewClass. Falsch wäre: Cmynewclass.
+
+Methoden
+    Methoden werden mit dem ersten buchstaben klein und falls die Namen der Methode
+    mehrere Wörter enthalten sollten, wird jedes weiter Wort mit dem Anfangsbuchstaben groß
+    geschrieben.
+    Beispiel: setName(). Falsch wäre: SetName() oder setname().
+
+Member Variablen.
+    Member variablen werden mit einem "m_" am Anfang gekennzeichnet und dann kommt der Name 
+    der Variable, jedes Wort hat wieder einen großen Anfangsbuchstaben.
+    Beispiel: m_Name oder m_WindowHeight. Falsch wäre: m_name oder M_Name.
+
+Klammern setzen.
+    Es gibt mehrer Möglichkeiten die Klammern einzusetzen, z.B. so:
+    
+    int main()
+    {
+        ...
+        blalbla
+        ...
+    }
+    
+    oder auch so:
+    
+    int main() {
+        ....
+        blabla
+        ....
+    }
+    
+    ...Oder beides :D
+    
+Tab:
+    Bei vim heißt die Funktion tabstop und shiftwidth, wieviel zeilen wird wenn man "TAB"
+    drückt eingerückt, ich habe 4.
+    
+
+Wenn ihr Rechtschreibfehler findet könnt ihr sie behalten :D
+
+greetz ogb
