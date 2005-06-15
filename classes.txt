@@ -1,1 +1,23 @@
-Test
+CBase
+{
+	CBase(...);
+	~CBase(...);
+}
+
+CGraph
+{
+	CGraph(...);
+	~CGraph(...);
+}
+
+CInput
+{
+	CInput(...);
+	~CInput(...);
+}
+
+CSound
+{
+	CSound(...);
+	~CSound(...);
+}
