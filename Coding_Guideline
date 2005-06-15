@@ -9,7 +9,7 @@ Sprache:
 Klassen:
     Klassen werden mit einem großem "C" am Anfang gekennzeichnet. Falls die Namen der Klassen
     mehrere Wörter enthalten sollten, wird bei allen der Anfangsbuchstaben groß geschrieben.
-    eispiel: CMyNewClass. Falsch wäre: Cmynewclass.
+    Beispiel: CMyNewClass. Falsch wäre: Cmynewclass.
 
 Methoden
     Methoden werden mit dem ersten buchstaben klein und falls die Namen der Methode
