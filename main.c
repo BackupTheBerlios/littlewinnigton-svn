@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 #include <SDL.h>
 
@@ -10,6 +10,7 @@
 int main (int argc, char *argv[])
 {
 	SDL_Surface *screen;
+	int running;
 
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
@@ -39,7 +40,7 @@ int main (int argc, char *argv[])
 				case SDL_KEYDOWN:
 					running = 0;
 					break;
-				case SDL_QUIT;
+				case SDL_QUIT:
 					running = 0;
 					break;
 			}
